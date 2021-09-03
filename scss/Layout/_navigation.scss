@@ -1,0 +1,61 @@
+.navigation {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 74px;
+    padding: 13px 10px 10px 26px;
+    background-color: #fff;
+    display: flex;
+    z-index: 1;
+
+    .menu-link {
+        margin-left: 15px;
+        .my-menu {
+            padding: 12px;
+        }
+        .menu-link {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+            letter-spacing: 2px;
+            font-size: 10.5px;
+            &:hover {
+                background-color: #6666663f;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+        }
+    }
+    .search{
+        width: 100%;
+        right: -25%;
+        position: relative;
+    }
+    .cont-search {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        align-items: flex-end;
+        padding: 10px;
+        width: 100%;
+        .link-search {
+            padding: 10px;
+            &:hover {
+                background-color: #dbdada;
+                
+            }
+        }
+    }
+}
+.veniclesHov {
+    position: relative;
+    display: none;
+}
+.ff{
+    display: flex;
+}

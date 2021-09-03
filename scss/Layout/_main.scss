@@ -1,0 +1,308 @@
+html {
+    font-family: "AvenirNext", "arial", "helvetica", sans-serif;
+}
+.rangecars {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    background-color: rgba(145, 145, 145, 0.274) 02, 102, 102;
+
+    @media (max-width: 740px) {
+        .cars {
+            img {
+                width: 100%;
+                margin: 5px;
+            }
+        }
+    }
+    @media (min-width: 741px) {
+        .cars {
+            img {
+                width: 315px;
+            }
+        }
+    }
+    @media (min-width: 897px) {
+        .cars {
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            img{
+                background-size: contain;
+            }
+            
+        }
+    }
+
+    h2 {
+        text-align: center;
+    }
+    .cars {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        justify-content: space-evenly;
+    }
+    .litllegrey {
+        font-size: 13px;
+        color: #4a4f54;
+    }
+    .grey {
+        font-size: 14px;
+        color: #4a4f54;
+    }
+    a {
+        color: black;
+    }
+    .rangeRover {
+        margin: 5px;
+        .infoRover {
+            margin-top: 10px;
+        }
+        .bl {
+            color: white;
+            background-color: black;
+            width: 55%;
+            height: 40px;
+            text-align: center;
+            border-radius: 4px;
+            &:hover {
+                color: black;
+                background-color: #fff;
+                width: 55%;
+                height: 40px;
+                border: 2px solid black;
+            }
+        }
+    }
+    .rangeRoverSport {
+        margin: 5px;
+
+        .infoRoverSport {
+            margin-top: 10px;
+        }
+        .bl {
+            color: white;
+            background-color: black;
+            width: 55%;
+            height: 40px;
+            text-align: center;
+            border-radius: 4px;
+            &:hover {
+                color: black;
+                background-color: #fff;
+                width: 55%;
+                height: 40px;
+                border: 2px solid black;
+            }
+        }
+    }
+    .Velar {
+        margin: 5px;
+        .roverVelar {
+            margin-top: 10px;
+        }
+        .bl {
+            color: white;
+            background-color: black;
+            width: 55%;
+            height: 40px;
+            text-align: center;
+            border-radius: 4px;
+            &:hover {
+                color: black;
+                background-color: #fff;
+                width: 55%;
+                height: 40px;
+                border: 2px solid black;
+            }
+        }
+    }
+    .Evoque {
+        margin: 5px;
+        .roverEvoque {
+            margin-top: 10px;
+        }
+        .bl {
+            color: white;
+            background-color: black;
+            width: 55%;
+            height: 40px;
+            text-align: center;
+            border-radius: 4px;
+            &:hover {
+                color: black;
+                background-color: #fff;
+                width: 55%;
+                height: 40px;
+                border: 2px solid black;
+            }
+        }
+    }
+    .discovery {
+        margin: 5px;
+        .roverDiscovery {
+            margin-top: 10px;
+        }
+        .bl {
+            color: white;
+            background-color: black;
+            width: 55%;
+            height: 40px;
+            text-align: center;
+            border-radius: 4px;
+            &:hover {
+                color: black;
+                background-color: #fff;
+                width: 55%;
+                height: 40px;
+                border: 2px solid black;
+            }
+        }
+    }
+    .discoverySport {
+        margin: 5px;
+        .roverdiscoverySport {
+            margin-top: 10px;
+        }
+        .bl {
+            color: white;
+            background-color: black;
+            width: 55%;
+            height: 40px;
+            text-align: center;
+            border-radius: 4px;
+            &:hover {
+                color: black;
+                background-color: #fff;
+                width: 55%;
+                height: 40px;
+                border: 2px solid black;
+            }
+        }
+    }
+    .defender {
+        margin: 5px;
+        .roverDefender {
+            margin-top: 10px;
+        }
+        .bl {
+            background-color: black;
+            color: white;
+            width: 55%;
+            height: 40px;
+            text-align: center;
+            border-radius: 4px;
+            &:hover {
+                color: black;
+                background-color: #fff;
+                width: 55%;
+                height: 40px;
+                border: 2px solid black;
+            }
+        }
+    }
+    .SPECIALVENICLEOPERATIONS {
+        margin: 5px;
+        .spec {
+            margin: 10px;
+        }
+    }
+}
+
+.infoRov {
+    
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f8f9f9;
+
+    h3 {
+        color: #4a4f54;
+        width: 75%;
+        font-size: 15px;
+    }
+}
+.infoAboutRover {
+    display: block;
+    background-color: #4a4f54;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+    img {
+        width: 100%;
+    }
+    @media (max-width: 740px) {
+            img {
+                width: 100%;
+                margin: 5px;
+            }
+    }
+    .marg {
+        margin-top: 1em;
+    }
+    .contAbout {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        justify-content: space-evenly;
+        }
+        @media (min-width: 741px) {
+            .marg {
+                img {
+                    width: 315px;
+                    margin: 5px;
+                }
+            }
+        }
+        @media (min-width:1023px) {
+            .marg{width: 450px;
+                img{
+                    width: 450px;
+                }
+            }
+        }
+        .str1 {
+            margin-top: 20px;
+        }
+        a {
+            font-size: 14px;
+            width: 305px;
+            color: #e4e8e8;
+        }
+        p {
+            font-size: 14px;
+            width: 305px;
+            color: #e4e8e8;
+        }
+        .scr {
+            font-size: 10px;
+        }
+    }
+
+
+.discl {
+    background-color: #e9ecec;
+    color: #4a4f54;
+    width: 100%;
+    height: 160px;
+    .lambo {
+        position: absolute;
+        padding: 45px;
+        font-size: 13px;
+    }
+    a {
+        color: #4a4f54;
+    }
+}
+.bgg{
+    padding: 40px;
+}

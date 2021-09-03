@@ -1,0 +1,67 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    .infoFoot {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        font-size: 11px;
+        align-items: baseline;
+        background-color: #4a4f54;
+        flex-wrap: wrap;
+        color: white;
+        .info1 {
+            height: auto;
+            width: auto;
+            padding: 35px;
+
+        }
+    }
+    .info2 {
+        height: auto;
+        width: auto;
+        padding: 25px;
+    }
+    .info3 {
+        height: auto;
+        width: auto;
+        padding: 25px;
+    }
+    .info4 {
+        height: auto;
+        width: auto;
+        padding: 25px;
+    }
+    .info5 {
+        height: auto;
+        width: auto;
+        padding: 25px;
+    }
+    .grey {
+        margin-bottom: 35px;
+    }
+}
+
+.cont {
+    width: 100%;
+    height: auto;
+    .i {
+        font-size: 11px;
+        height: 43px;
+        color: black;
+        padding: 45px;
+    }
+    .fa {
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 25px;
+        p {
+            font-size: 11px;
+            margin: 20px;
+        }
+    }
+}

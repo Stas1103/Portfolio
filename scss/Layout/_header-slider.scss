@@ -1,0 +1,76 @@
+.header-slider {
+    position: relative;
+    margin: 72px 0px;
+    width: 100%;
+    height: 10%;
+
+    .d-block {
+        width: 100%;
+        height: auto;
+        background-size: contain;
+    }
+    .slider-content {
+        position: absolute;
+        left: 9%;
+        top: 43%;
+        font-size: 12px;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.897);
+
+        h1 {
+            font-size: 22px;
+        }
+        .batton-cont {
+            display: flex;
+            flex-direction: row;
+            margin: 5px;
+            padding: 5px;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            width: 150px;
+            height: auto;
+            font-size: 12px;
+            transition: all 0.4s;
+            &:hover {
+                background-color: #fff;
+                color: black;
+                border: 1px solid #000;
+            }
+        }
+    }
+    .round-button {
+        position: absolute;
+        background-color: #045a01;
+        width: 55px;
+        right: 25px;
+        height: 55px;
+        top: 4%;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        border-radius: 100px;
+        transition: all 0.4s;
+        &:hover {
+            background-color: #000;
+            padding: 13px;
+        }
+        .body-round {
+            width: 4px;
+            height: 4px;
+            background-color: #fff;
+            border-radius: 100px;
+            &:hover {
+                width: 5px;
+                height: 5px;
+            }
+        }
+    }
+}
