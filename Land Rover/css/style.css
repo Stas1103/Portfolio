@@ -69,6 +69,7 @@ html {
   width: 55%;
   height: 40px;
   text-align: center;
+  top: 2px;
   border-radius: 4px;
 }
 .rangecars .rangeRover .bl:hover {
@@ -301,6 +302,12 @@ html {
 .bgg {
   padding: 40px;
 }
+.bgg h2 {
+  margin-left: 20px;
+}
+.bgg h3 {
+  margin-left: 20px;
+}
 
 .navigation {
   position: fixed;
@@ -331,8 +338,9 @@ html {
 }
 .navigation .menu-link .menu-link:hover {
   background-color: #6666663f;
-  border-radius: 5px;
+  height: 74px;
   text-decoration: none;
+  transition: 0.2s;
 }
 .navigation .search {
   width: 100%;
