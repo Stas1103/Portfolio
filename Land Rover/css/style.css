@@ -46,6 +46,24 @@ html {
   height: auto;
   justify-content: space-evenly;
 }
+.rangecars .cars .bl {
+  color: white;
+  display: flex;
+  background-color: black;
+  width: 55%;
+  height: 40px;
+  padding: 5px;
+  justify-content: center;
+  border-radius: 4px;
+}
+.rangecars .cars .bl:hover {
+  color: black;
+  background-color: #fff;
+  width: 55%;
+  height: 40px;
+  margin-top: -0.1px;
+  border: 2px solid black;
+}
 .rangecars .litllegrey {
   font-size: 13px;
   color: #4a4f54;
@@ -63,42 +81,11 @@ html {
 .rangecars .rangeRover .infoRover {
   margin-top: 10px;
 }
-.rangecars .rangeRover .bl {
-  color: white;
-  background-color: black;
-  width: 55%;
-  height: 40px;
-  text-align: center;
-  top: 2px;
-  border-radius: 4px;
-}
-.rangecars .rangeRover .bl:hover {
-  color: black;
-  background-color: #fff;
-  width: 55%;
-  height: 40px;
-  border: 2px solid black;
-}
 .rangecars .rangeRoverSport {
   margin: 5px;
 }
 .rangecars .rangeRoverSport .infoRoverSport {
   margin-top: 10px;
-}
-.rangecars .rangeRoverSport .bl {
-  color: white;
-  background-color: black;
-  width: 55%;
-  height: 40px;
-  text-align: center;
-  border-radius: 4px;
-}
-.rangecars .rangeRoverSport .bl:hover {
-  color: black;
-  background-color: #fff;
-  width: 55%;
-  height: 40px;
-  border: 2px solid black;
 }
 .rangecars .Velar {
   margin: 5px;
@@ -106,41 +93,11 @@ html {
 .rangecars .Velar .roverVelar {
   margin-top: 10px;
 }
-.rangecars .Velar .bl {
-  color: white;
-  background-color: black;
-  width: 55%;
-  height: 40px;
-  text-align: center;
-  border-radius: 4px;
-}
-.rangecars .Velar .bl:hover {
-  color: black;
-  background-color: #fff;
-  width: 55%;
-  height: 40px;
-  border: 2px solid black;
-}
 .rangecars .Evoque {
   margin: 5px;
 }
 .rangecars .Evoque .roverEvoque {
   margin-top: 10px;
-}
-.rangecars .Evoque .bl {
-  color: white;
-  background-color: black;
-  width: 55%;
-  height: 40px;
-  text-align: center;
-  border-radius: 4px;
-}
-.rangecars .Evoque .bl:hover {
-  color: black;
-  background-color: #fff;
-  width: 55%;
-  height: 40px;
-  border: 2px solid black;
 }
 .rangecars .discovery {
   margin: 5px;
@@ -148,62 +105,17 @@ html {
 .rangecars .discovery .roverDiscovery {
   margin-top: 10px;
 }
-.rangecars .discovery .bl {
-  color: white;
-  background-color: black;
-  width: 55%;
-  height: 40px;
-  text-align: center;
-  border-radius: 4px;
-}
-.rangecars .discovery .bl:hover {
-  color: black;
-  background-color: #fff;
-  width: 55%;
-  height: 40px;
-  border: 2px solid black;
-}
 .rangecars .discoverySport {
   margin: 5px;
 }
 .rangecars .discoverySport .roverdiscoverySport {
   margin-top: 10px;
 }
-.rangecars .discoverySport .bl {
-  color: white;
-  background-color: black;
-  width: 55%;
-  height: 40px;
-  text-align: center;
-  border-radius: 4px;
-}
-.rangecars .discoverySport .bl:hover {
-  color: black;
-  background-color: #fff;
-  width: 55%;
-  height: 40px;
-  border: 2px solid black;
-}
 .rangecars .defender {
   margin: 5px;
 }
 .rangecars .defender .roverDefender {
   margin-top: 10px;
-}
-.rangecars .defender .bl {
-  background-color: black;
-  color: white;
-  width: 55%;
-  height: 40px;
-  text-align: center;
-  border-radius: 4px;
-}
-.rangecars .defender .bl:hover {
-  color: black;
-  background-color: #fff;
-  width: 55%;
-  height: 40px;
-  border: 2px solid black;
 }
 .rangecars .SPECIALVENICLEOPERATIONS {
   margin: 5px;
@@ -300,7 +212,7 @@ html {
 }
 
 .bgg {
-  padding: 40px;
+  padding: 10px;
 }
 .bgg h2 {
   margin-left: 20px;
@@ -501,13 +413,13 @@ footer .grey {
   font-size: 11px;
   height: 43px;
   color: black;
-  padding: 45px;
+  padding: 35px;
 }
 .cont .fa {
   display: flex;
   height: auto;
   flex-wrap: wrap;
-  padding: 25px;
+  padding: 8px;
 }
 .cont .fa p {
   font-size: 11px;
