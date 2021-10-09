@@ -30,10 +30,9 @@ html {
             height: auto;
             display: flex;
             flex-wrap: nowrap;
-            img{
+            img {
                 background-size: contain;
             }
-            
         }
     }
 
@@ -81,8 +80,6 @@ html {
         .infoRover {
             margin-top: 10px;
         }
-        
-       
     }
     .rangeRoverSport {
         margin: 5px;
@@ -90,42 +87,36 @@ html {
         .infoRoverSport {
             margin-top: 10px;
         }
-        
     }
     .Velar {
         margin: 5px;
         .roverVelar {
             margin-top: 10px;
         }
-        
     }
     .Evoque {
         margin: 5px;
         .roverEvoque {
             margin-top: 10px;
         }
-        
     }
     .discovery {
         margin: 5px;
         .roverDiscovery {
             margin-top: 10px;
         }
-       
     }
     .discoverySport {
         margin: 5px;
         .roverdiscoverySport {
             margin-top: 10px;
         }
-        
     }
     .defender {
         margin: 5px;
         .roverDefender {
             margin-top: 10px;
         }
-        
     }
     .SPECIALVENICLEOPERATIONS {
         margin: 5px;
@@ -140,6 +131,7 @@ html {
     position: relative;
     width: 100%;
     height: auto;
+    margin-top: 15px;
     background-color: #f8f9f9;
 
     h3 {
@@ -155,15 +147,15 @@ html {
     height: auto;
     padding: 25px;
     justify-content: space-evenly;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     img {
         width: 100%;
     }
     @media (max-width: 740px) {
-            img {
-                width: 100%;
-                margin: 5px;
-            }
+        img {
+            width: 100%;
+            margin: 5px;
+        }
     }
     .marg {
         margin-top: 1em;
@@ -174,40 +166,40 @@ html {
         width: 100%;
         height: auto;
         justify-content: space-evenly;
-        }
-        @media (min-width: 741px) {
-            .marg {
-                img {
-                    width: 315px;
-                    margin: 5px;
-                }
+    }
+    @media (min-width: 741px) {
+        .marg {
+            img {
+                width: 315px;
+                margin: 5px;
             }
-        }
-        @media (min-width:1023px) {
-            .marg{width: 450px;
-                img{
-                    width: 450px;
-                }
-            }
-        }
-        .str1 {
-            margin-top: 20px;
-        }
-        a {
-            font-size: 14px;
-            width: 305px;
-            color: #e4e8e8;
-        }
-        p {
-            font-size: 14px;
-            width: 305px;
-            color: #e4e8e8;
-        }
-        .scr {
-            font-size: 10px;
         }
     }
-
+    @media (min-width: 1023px) {
+        .marg {
+            width: 450px;
+            img {
+                width: 450px;
+            }
+        }
+    }
+    .str1 {
+        margin-top: 20px;
+    }
+    a {
+        font-size: 14px;
+        width: 305px;
+        color: #e4e8e8;
+    }
+    p {
+        font-size: 14px;
+        width: 305px;
+        color: #e4e8e8;
+    }
+    .scr {
+        font-size: 10px;
+    }
+}
 
 .discl {
     background-color: #e9ecec;
@@ -216,19 +208,19 @@ html {
     height: 160px;
     .lambo {
         position: absolute;
-        padding: 45px;
+        padding: 55px;
         font-size: 13px;
     }
     a {
         color: #4a4f54;
     }
 }
-.bgg{
-    padding: 10px;
-    h2{
-        margin-left: 20px;
+.bgg {
+    padding: 35px;
+    h2 {
+        margin-left: 25px;
     }
-    h3{
-        margin-left: 20px;
+    h3 {
+        margin-left: 25px;
     }
 }

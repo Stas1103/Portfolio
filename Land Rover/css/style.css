@@ -129,6 +129,7 @@ html {
   position: relative;
   width: 100%;
   height: auto;
+  margin-top: 15px;
   background-color: #f8f9f9;
 }
 .infoRov h3 {
@@ -204,7 +205,7 @@ html {
 }
 .discl .lambo {
   position: absolute;
-  padding: 45px;
+  padding: 55px;
   font-size: 13px;
 }
 .discl a {
@@ -212,13 +213,13 @@ html {
 }
 
 .bgg {
-  padding: 10px;
+  padding: 35px;
 }
 .bgg h2 {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .bgg h3 {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .navigation {
@@ -235,9 +236,6 @@ html {
 .navigation .menu-link {
   margin-left: 15px;
 }
-.navigation .menu-link .my-menu {
-  padding: 12px;
-}
 .navigation .menu-link .menu-link {
   display: flex;
   flex-direction: row;
@@ -248,11 +246,15 @@ html {
   letter-spacing: 2px;
   font-size: 10.5px;
 }
-.navigation .menu-link .menu-link:hover {
+.navigation .ff a {
+  top: 11px;
+}
+.navigation .ff a:hover {
   background-color: #6666663f;
+  top: -13px;
   height: 74px;
   text-decoration: none;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 .navigation .search {
   width: 100%;
@@ -286,7 +288,6 @@ html {
 
 .header-slider {
   position: relative;
-  margin: 72px 0px;
   width: 100%;
   height: 10%;
 }
@@ -310,24 +311,20 @@ html {
 }
 .header-slider .slider-content .batton-cont {
   display: flex;
-  flex-direction: row;
-  margin: 5px;
-  padding: 5px;
-  justify-content: space-around;
   align-items: center;
-  position: relative;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.897);
   color: #fff;
   text-align: center;
-  width: 150px;
+  width: auto;
   height: auto;
-  font-size: 12px;
+  padding: 15px;
+  font-size: 14px;
   transition: all 0.4s;
 }
 .header-slider .slider-content .batton-cont:hover {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.897);
   color: black;
-  border: 1px solid #000;
+  border: 0.5px solid #000;
 }
 .header-slider .round-button {
   position: absolute;
@@ -335,7 +332,7 @@ html {
   width: 55px;
   right: 25px;
   height: 55px;
-  top: 4%;
+  top: 12%;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
@@ -379,7 +376,7 @@ footer .infoFoot {
 footer .infoFoot .info1 {
   height: auto;
   width: auto;
-  padding: 35px;
+  padding: 55px;
 }
 footer .info2 {
   height: auto;
@@ -413,17 +410,19 @@ footer .grey {
   font-size: 11px;
   height: 43px;
   color: black;
-  padding: 35px;
+  padding: 30px;
+  margin-left: 30px;
 }
 .cont .fa {
   display: flex;
   height: auto;
   flex-wrap: wrap;
   padding: 8px;
+  margin-left: 36px;
 }
 .cont .fa p {
   font-size: 11px;
-  margin: 20px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

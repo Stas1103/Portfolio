@@ -11,9 +11,7 @@
 
     .menu-link {
         margin-left: 15px;
-        .my-menu {
-            padding: 12px;
-        }
+
         .menu-link {
             display: flex;
             flex-direction: row;
@@ -23,16 +21,22 @@
             padding: 20px;
             letter-spacing: 2px;
             font-size: 10.5px;
-            &:hover {
-                background-color: #6666663f;
-                // border-radius: 5px;
-                height: 74px;
-                text-decoration: none;
-                transition: 0.2s;
-            }
+
         }
     }
-    .search{
+    .ff{
+        a{
+            top: 11px;
+        }
+        a:hover {
+            background-color: #6666663f;
+            top: -13px;
+            height: 74px;
+            text-decoration: none;
+            transition: 0.4s;
+        }
+    }
+    .search {
         width: 100%;
         right: -25%;
         position: relative;
@@ -49,7 +53,6 @@
             padding: 10px;
             &:hover {
                 background-color: #dbdada;
-                
             }
         }
     }
@@ -58,6 +61,6 @@
     position: relative;
     display: none;
 }
-.ff{
+.ff {
     display: flex;
 }
