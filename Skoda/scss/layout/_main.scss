@@ -1,0 +1,226 @@
+.afterHeaderInfo {
+    h3 {
+        margin-left: 10px;
+    }
+    h4 {
+        margin-left: 10px;
+    }
+    .upper {
+        font-size: 36px;
+        margin-top: 15px;
+        width: 80%;
+    }
+    .down {
+        font-size: 14px;
+        color: rgb(83, 83, 83);
+    }
+}
+.ServiceInMindk {
+    h2 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 30px;
+    }
+
+    .stiinfo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .stoImgInfo {
+        img {
+            width: 100%;
+            max-height: 202px;
+        }
+        p {
+            margin-left: 25px;
+        }
+        a {
+            margin-left: 25px;
+            color: rgb(0, 172, 0);
+            &:hover {
+                color: green;
+            }
+        }
+    }
+}
+.ServiceInOblast {
+    h2 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 3em;
+    }
+
+    .firstLine {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        .stoImgInfo {
+            img {
+                width: 100%;
+                max-height: 202px;
+            }
+            p {
+                margin-left: 25px;
+            }
+            a {
+                margin-left: 25px;
+                color: rgb(0, 172, 0);
+                &:hover {
+                    color: green;
+                }
+            }
+        }
+    }
+    .secondLine {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 2em;
+        .stoImgInfo {
+            img {
+                width: 100%;
+                max-height: 202px;
+            }
+            p {
+                margin-left: 25px;
+            }
+            a {
+                margin-left: 25px;
+                color: rgb(0, 172, 0);
+                &:hover {
+                    color: green;
+                }
+            }
+        }
+    }
+}
+
+.moreInfo {
+    margin-top: 20px;
+    width: 100%;
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    a {
+        color: rgb(0, 172, 0);
+        &:hover {
+            color: green;
+        }
+    }
+    .inInf {
+        width: 202px;
+        margin: 25px;
+        text-align: center;
+    }
+}
+.lastNews {
+    .lastButtInf {
+        background-color: #fff;
+        border: 1px solid black;
+        height: 51px;
+        width: 160px;
+        display: flex;
+        position: absolute;
+        left: 44%;
+        right: 44%;
+        justify-content: center;
+        p {
+            margin-top: 10px;
+        }
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+    @media (max-width: 1015px) {
+        .lastInfo {
+            display: flex;
+            width: auto;
+            h3 {
+                font-size: 16px;
+            }
+            font-size: 14px;
+            img {
+                width: 80%;
+                height: 202px;
+            }
+        }
+    }
+    @media (max-width: 759px) {
+        .lastinfo {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    h2 {
+        text-align: center;
+        padding-top: 55px;
+    }
+    .lastInfo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        .lastOne {
+            width: 510px;
+            margin: 5px;
+            img {
+                width: 100%;
+                max-height: 520px;
+            }
+            a {
+                color: #4ba82e;
+                &:hover {
+                    color: #377220;
+                }
+            }
+        }
+        .lastTwo {
+            width: 510px;
+            margin: 5px;
+            img {
+                width: 100%;
+                max-height: 520px;
+            }
+            a {
+                color: #4ba82e;
+                &:hover {
+                    color: #377220;
+                }
+            }
+            img {
+                max-width: 520px;
+            }
+        }
+    }
+}
+.lastButtInf {
+    background-color: #fff;
+    border: 1px solid black;
+    height: 51px;
+    width: 160px;
+    position: absolute;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
+    p {
+        margin-top: 10px;
+    }
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}

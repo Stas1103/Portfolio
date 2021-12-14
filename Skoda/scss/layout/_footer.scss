@@ -1,0 +1,49 @@
+.uppFoot {
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    display: flex;
+flex-wrap: wrap;
+    b {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .blocks {
+        width: auto;
+      padding: 15px;
+      
+    }.fi{
+        padding-left:60px;
+      }
+    input {
+        background-color: rgb(0, 172, 0);
+        border: 0px;
+        padding: 6.5px;
+    }
+    @media (min-width: 699px) {
+        flex-wrap: nowrap;
+    }
+}
+.downFoot2 {
+    background-color: black;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    p {
+        color: white;
+        font-size: 12px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+.greenNumber {
+    color: white;
+    padding: 8px;
+    &:hover {
+        background-color: #377220;
+    }
+}

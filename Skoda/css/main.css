@@ -1,0 +1,366 @@
+.uppFoot {
+  width: 100%;
+  height: auto;
+  background: #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.uppFoot b {
+  font-size: 14px;
+}
+.uppFoot p {
+  font-size: 12px;
+}
+.uppFoot .blocks {
+  width: auto;
+  padding: 15px;
+}
+.uppFoot .fi {
+  padding-left: 60px;
+}
+.uppFoot input {
+  background-color: #00ac00;
+  border: 0px;
+  padding: 6.5px;
+}
+@media (min-width: 699px) {
+  .uppFoot {
+    flex-wrap: nowrap;
+  }
+}
+
+.downFoot2 {
+  background-color: black;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.downFoot2 p {
+  color: white;
+  font-size: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.greenNumber {
+  color: white;
+  padding: 8px;
+}
+.greenNumber:hover {
+  background-color: #377220;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  background-size: contain;
+  padding: 15px;
+}
+@media (max-width: 660px) {
+  nav .left1 {
+    display: none;
+  }
+  nav .left2 {
+    display: none;
+  }
+  nav .Client {
+    display: none;
+  }
+}
+
+@media (max-width: 961px) {
+  .right22 {
+    display: none;
+  }
+}
+@media (max-width: 759px) {
+  .right11 {
+    display: none;
+  }
+}
+.headerNavigationLeft {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  margin-left: 30px;
+}
+.headerNavigationLeft p {
+  padding: 10px;
+}
+.headerNavigationLeft img {
+  width: 100%;
+  height: 100%;
+}
+
+.headerNavigationRight {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+.headerNavigationRight p {
+  padding: 5px;
+}
+.headerNavigationRight .Client {
+  display: flex;
+}
+.headerNavigationRight .Client p {
+  margin-top: 7px;
+  text-align: center;
+}
+@media (max-width: 660px) {
+  .headerNavigationRight .left1 {
+    display: none;
+  }
+  .headerNavigationRight .left2 {
+    display: none;
+  }
+  .headerNavigationRight .Client {
+    display: none;
+  }
+}
+
+.slider {
+  position: relative;
+}
+.slider img {
+  width: 100vw;
+  height: auto;
+}
+
+.pos-f-t {
+  display: none;
+}
+
+@media (max-width: 660px) {
+  .pos-f-t {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+  }
+  .pos-f-t p {
+    color: black;
+    padding: 25px;
+    margin-right: 10px;
+  }
+}
+.afterHeaderInfo h3 {
+  margin-left: 10px;
+}
+.afterHeaderInfo h4 {
+  margin-left: 10px;
+}
+.afterHeaderInfo .upper {
+  font-size: 36px;
+  margin-top: 15px;
+  width: 80%;
+}
+.afterHeaderInfo .down {
+  font-size: 14px;
+  color: #535353;
+}
+
+.ServiceInMindk h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
+}
+.ServiceInMindk .stiinfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.ServiceInMindk .stoImgInfo img {
+  width: 100%;
+  max-height: 202px;
+}
+.ServiceInMindk .stoImgInfo p {
+  margin-left: 25px;
+}
+.ServiceInMindk .stoImgInfo a {
+  margin-left: 25px;
+  color: #00ac00;
+}
+.ServiceInMindk .stoImgInfo a:hover {
+  color: green;
+}
+
+.ServiceInOblast h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 3em;
+}
+.ServiceInOblast .firstLine {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.ServiceInOblast .firstLine .stoImgInfo img {
+  width: 100%;
+  max-height: 202px;
+}
+.ServiceInOblast .firstLine .stoImgInfo p {
+  margin-left: 25px;
+}
+.ServiceInOblast .firstLine .stoImgInfo a {
+  margin-left: 25px;
+  color: #00ac00;
+}
+.ServiceInOblast .firstLine .stoImgInfo a:hover {
+  color: green;
+}
+.ServiceInOblast .secondLine {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 2em;
+}
+.ServiceInOblast .secondLine .stoImgInfo img {
+  width: 100%;
+  max-height: 202px;
+}
+.ServiceInOblast .secondLine .stoImgInfo p {
+  margin-left: 25px;
+}
+.ServiceInOblast .secondLine .stoImgInfo a {
+  margin-left: 25px;
+  color: #00ac00;
+}
+.ServiceInOblast .secondLine .stoImgInfo a:hover {
+  color: green;
+}
+
+.moreInfo {
+  margin-top: 20px;
+  width: 100%;
+  padding: 45px;
+  display: flex;
+  justify-content: center;
+}
+.moreInfo p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.moreInfo a {
+  color: #00ac00;
+}
+.moreInfo a:hover {
+  color: green;
+}
+.moreInfo .inInf {
+  width: 202px;
+  margin: 25px;
+  text-align: center;
+}
+
+.lastNews .lastButtInf {
+  background-color: #fff;
+  border: 1px solid black;
+  height: 51px;
+  width: 160px;
+  display: flex;
+  position: absolute;
+  left: 44%;
+  right: 44%;
+  justify-content: center;
+}
+.lastNews .lastButtInf p {
+  margin-top: 10px;
+}
+.lastNews .lastButtInf:hover {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 1015px) {
+  .lastNews .lastInfo {
+    display: flex;
+    width: auto;
+    font-size: 14px;
+  }
+  .lastNews .lastInfo h3 {
+    font-size: 16px;
+  }
+  .lastNews .lastInfo img {
+    width: 80%;
+    height: 202px;
+  }
+}
+@media (max-width: 759px) {
+  .lastNews .lastinfo {
+    display: flex;
+    justify-content: center;
+  }
+}
+.lastNews h2 {
+  text-align: center;
+  padding-top: 55px;
+}
+.lastNews .lastInfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.lastNews .lastInfo .lastOne {
+  width: 510px;
+  margin: 5px;
+}
+.lastNews .lastInfo .lastOne img {
+  width: 100%;
+  max-height: 520px;
+}
+.lastNews .lastInfo .lastOne a {
+  color: #4ba82e;
+}
+.lastNews .lastInfo .lastOne a:hover {
+  color: #377220;
+}
+.lastNews .lastInfo .lastTwo {
+  width: 510px;
+  margin: 5px;
+}
+.lastNews .lastInfo .lastTwo img {
+  width: 100%;
+  max-height: 520px;
+}
+.lastNews .lastInfo .lastTwo a {
+  color: #4ba82e;
+}
+.lastNews .lastInfo .lastTwo a:hover {
+  color: #377220;
+}
+.lastNews .lastInfo .lastTwo img {
+  max-width: 520px;
+}
+
+.lastButtInf {
+  background-color: #fff;
+  border: 1px solid black;
+  height: 51px;
+  width: 160px;
+  position: absolute;
+  padding-left: auto;
+  padding-right: auto;
+  justify-content: center;
+}
+.lastButtInf p {
+  margin-top: 10px;
+}
+.lastButtInf:hover {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
