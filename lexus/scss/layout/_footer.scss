@@ -1,0 +1,78 @@
+.upFootInfo {
+    background: rgb(245, 245, 245);
+
+    div {
+        padding: 35px;
+        margin-top: 3em;
+        text-align: center;
+        a {
+            color: black;
+        }
+        p {
+            color: rgb(99, 99, 99);
+        }
+    }
+}
+.footfoot {
+    background-color: black;
+    .info {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+        a {
+            font-size: 11px;
+            color: rgb(182, 161, 113);
+        }
+    }
+    .margin {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 150px;
+        padding-top: 25px;
+        .allFlex {
+            display: flex;
+            .leftSection {
+                width: 250px;
+                p {
+                    color: white;
+                    font-size: 12px;
+                }
+                img {
+                    width: 140px;
+                }
+            }
+            .infoWrapFlex {
+                display: flex;
+                flex-wrap: wrap;
+                div {
+                    .whiteUpP {
+                        color: white;
+                        font-size: 11px;
+                    }
+                    p {
+                        font-size: 11px;
+                        padding: 3px;
+                        padding-left: 150px;
+                        color: rgb(168, 168, 168);
+                    }
+                }
+            }
+        }
+    }
+    .underFooter {
+        background-color: black;
+        height: 60px;
+        text-align: center;
+        position: relative;
+        top: -2em;
+        a {
+            font-size: 10px;
+            color: white;
+        }
+        p {
+            font-size: 10px;
+            color: rgb(168, 168, 168);
+        }
+    }
+}
